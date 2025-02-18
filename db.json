@@ -1,0 +1,143 @@
+{
+    "hoodies": [
+      {
+        "id": 1,
+        "name": "Oversized Hoodie - Black",
+        "image": "photos/1000011979.jpeg",
+        "price": 1000
+      },
+      {
+        "id": 2,
+        "name": "Oversized Hoodie - Grey",
+        "image": "photos/1000011985.jpeg",
+        "price": 1000
+      },
+      {
+        "id": 3,
+        "name": "Oversized Hoodie - Blue",
+        "image": "photos/1000011986.jpeg",
+        "price": 1000
+      },
+      {
+        "id": 4,
+        "name": "Oversized Hoodie - Brown",
+        "image": "photos/1000011987.jpeg",
+        "price": 1000
+      },
+      {
+        "id": 5,
+        "name": "Oversized Hoodie - White",
+        "image": "photos/ABC01040.jpg",
+        "price": 1000
+      },
+      {
+        "id": 6,
+        "name": "Oversized Hoodie - White",
+        "image": "photos/ABC00843.jpg",
+        "price": 1000
+      },
+      {
+        "id": 7,
+        "name": "Oversized Hoodie - White",
+        "image": "photos/ABC00795.jpg",
+        "price": 1000
+      },
+      {
+        "id": 8,
+        "name": "Oversized Hoodie - Charcoal Grey",
+        "image": "photos/ABC00843.jpg",
+        "price": 1000
+      },
+      {
+        "id": 9,
+        "name": "Oversized Hoodie - Brown",
+        "image": "photos/ABC00940.jpg",
+        "price": 1000
+      },
+      {
+        "id": 10,
+        "name": "Oversized Hoodie - Blue",
+        "image": "photos/ABC01040.jpg",
+        "price": 1000
+      },
+      {
+        "id": 11,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01205.jpg",
+        "price": 1000
+      },
+      {
+        "id": 12,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01202.jpg",
+        "price": 1000
+      },
+      {
+        "id": 13,
+        "name": "Oversized Hoodie - Charcoal Grey",
+        "image": "VINCITZZ x AB/ABC01150.jpg",
+        "price": 1000
+      },
+      {
+        "id": 14,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01120.jpg",
+        "price": 1000
+      },
+      {
+        "id": 15,
+        "name": "Oversized Hoodie - White",
+        "image": "VINCITZZ x AB/ABC01095.jpg",
+        "price": 1000
+      },
+      {
+        "id": 16,
+        "name": "Oversized Hoodie - Blue",
+        "image": "VINCITZZ x AB/ABC00929.jpg",
+        "price": 1000
+      },
+      {
+        "id": 17,
+        "name": "Oversized Hoodie - Black",
+        "image": "VINCITZZ x AB/ABC00923.jpg",
+        "price": 1000
+      },
+      {
+        "id": 18,
+        "name": "Oversized Hoodie - Blue",
+        "image": "VINCITZZ x AB/ABC00792.jpg",
+        "price": 1000
+      },
+      {
+        "id": 19,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01204.jpg",
+        "price": 1000
+      },
+      {
+        "id": 20,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01136.jpg",
+        "price": 1000
+      },
+      {
+        "id": 21,
+        "name": "Oversized Hoodie - Blue",
+        "image": "VINCITZZ x AB/ABC01100.jpg",
+        "price": 1000
+      },
+      {
+        "id": 22,
+        "name": "Oversized Hoodie - Brown",
+        "image": "VINCITZZ x AB/ABC01058.jpg",
+        "price": 1000
+      },
+      {
+        "id": 23,
+        "name": "Oversized Hoodie - Blue",
+        "image": "VINCITZZ x AB/ABC00937.jpg",
+        "price": 1000
+      }
+    ]
+  }
+  

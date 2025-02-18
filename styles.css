@@ -1,0 +1,373 @@
+/* Basic Reset */
+*/* Reset */
+* {font-family: "Cormorant SC", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+}
+
+header {
+    background-color: #f8f9fa; /* Light background */
+    padding: 10px 0;
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    position: relative; /* Needed for absolute positioning */
+}
+
+/* Left Section */
+.left-items {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 35%;
+    /* border: 1px solid red; */
+   margin-right: 14%;
+}
+
+.left-items h1 {
+    font-size: 35px;
+}
+
+.left-items h4 {
+    font-size: 20px;
+}
+
+/* Right Section */
+.right-items {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid red; */
+    gap: 10%;
+}
+
+/* Center the search bar */
+.centre {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28%;
+}
+
+/* Search Bar Styling */
+form {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+    overflow: hidden;
+    background-color:#eceeef;
+    padding: 0px;
+     
+}
+
+input[type="text"] {
+    border: none;
+    padding: 2%;
+    width: 35%;
+    outline: none;
+    background-color: #eceeef;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Nav Links */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+}
+.banner {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    /* border: solid 1px red; */
+    img{
+        margin-right: 4%;
+         width: 35%; 
+    }
+    ul {
+        margin-top:4% ;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+      
+    }
+.flat-off{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10%;
+    background-color: black;
+    color: white;
+    width: 70%;
+    font-size: 50px;
+    #up{
+        margin-bottom:5% ;
+        font-size: 25px;
+    }
+   #down{  margin-top:5% ;
+    font-size: 25px;
+}
+button{  
+    margin-top: 10%;
+    background-color: white;
+   
+    padding: 3%;
+    
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+button:hover {
+    background-color: #eceeef;
+    color: #0088cc; /* Change color on hover */
+    text-decoration-style: solid; /* Change dash to solid on hover */
+}
+   
+    button a:hover{   background-color: #eceeef;
+        text-decoration:none;
+        color: black;
+     border: 0px;}
+}
+.pictures{
+    position: relative;
+    background-image: url('photos/1000011985.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+    display: flex;
+   width: 80%;
+   margin-top: 5%;
+    justify-content: center;
+ padding: 30%;
+ align-items: flex-start;
+ a{
+    text-decoration: none;
+
+    
+    color: black;
+    position: absolute; /* Positioning relative to .pictures */
+    top: 10px; /* Distance from the top */
+    left: 10px; 
+    font-size: 25px;
+}
+  #ctby{
+    background-color: black;
+    color:white ;
+    text-decoration: none;
+    
+    position: absolute; /* Positioning relative to .pictures */
+    top: 60%; /* Distance from the top */
+    left:10% ; 
+    font-size: 15px;
+    padding: 2%;
+    
+   
+button{
+    background-color: black;
+    color: white;
+}
+  }
+  #ctby:hover{
+    background-color: gray;
+  }
+   #ctby button:hover{
+    background-color: gray;
+   }
+}
+footer {
+    margin-top: 5%;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 25%;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section img {
+    width: 30px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.hoodies ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 Equal Columns */
+    gap: 20px; /* Space between images */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.hoodies li {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures equal height */
+}
+
+.hoodies .img {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items:center; /* Center vertically */
+    width: 100%;
+    height: 100%; /* Ensures full height */
+    padding-bottom: 10%;
+    flex-direction: column;
+    padding-left: 3%;
+}
+
+.hoodies img {
+    
+    width: 100%; 
+    height: auto; /* Keep aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    object-fit: contain; /* Ensures image is properly contained */
+    
+
+}
+.hoodies{
+    padding-bottom: 10%;
+    width: 75%;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    padding-bottom: 5%;
+    span{
+        position: absolute;
+        left: 4%;
+        top: 51%;
+    }
+}
+#hoodies-list{
+    border: solid 1px red;
+    margin-top: 20px !important; 
+    padding-bottom: 10%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 Equal Columns */
+    gap: 20px; /* Space between images */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+
+     li{
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Ensures equal height */
+    }
+    .img {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items:center; /* Center vertically */
+        width: 100%;
+        height: 100%; /* Ensures full height */
+        padding-bottom: 10%;
+        flex-direction: column;
+        padding-left: 3%;
+       
+    }
+    .img:hover{ transform: translateY(-5px); /* Lift the hoodie card slightly */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */}
+    img {
+    
+        width: 100%; 
+        height: auto; /* Keep aspect ratio */
+        border-radius: 10px; /* Optional: Adds rounded corners */
+        object-fit: contain; /* Ensures image is properly contained */
+        
+    
+    }
+    .price{
+        display: flex;
+        flex-direction: column;
+        
+        position: relative;
+        padding-bottom: 5%;
+        span{
+            position: absolute;
+            left: 4%;
+            top: 51%;
+        }
+    }
+   
+}
