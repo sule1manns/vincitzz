@@ -1,5 +1,10 @@
 
-  let hoodiesData = [];  // Global variable to store hoodie data
+ 
+
+    
+    
+  
+let hoodiesData = [];  // Global variable to store hoodie data
 
 // Fetch hoodie data from the server
 fetch("http://localhost:3000/hoodies")
@@ -8,6 +13,15 @@ fetch("http://localhost:3000/hoodies")
         hoodiesData = data.hoodies || data;  // Handle different data structures
         console.log("Fetched data:", hoodiesData);  
         displayHoodies(hoodiesData);         // Display hoodies after fetching
+
+let hoodiesData=[]
+fetch("http://localhost:3000/hoodies")
+    .then(response => response.json())
+    .then(data => {
+    hoodiesData = data.hoodies||data;  // Make sure the data structure matches
+        console.log(hoodiesData);  // Check the console to see if the data is correct
+        displayHoodies(hoodiesData);  // Display hoodies
+>>>>>>> d9ab644a4e782edbe6a0fb81e8f01a49defe2854
     })
     .catch(error => console.error("Error fetching hoodies:", error));
 
