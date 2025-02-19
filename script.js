@@ -1,7 +1,8 @@
+let hoodiesData=[]
 fetch("http://localhost:3000/hoodies")
     .then(response => response.json())
     .then(data => {
-        hoodiesData = data.hoodies;  // Make sure the data structure matches
+    hoodiesData = data.hoodies||data;  // Make sure the data structure matches
         console.log(hoodiesData);  // Check the console to see if the data is correct
         displayHoodies(hoodiesData);  // Display hoodies
     })
